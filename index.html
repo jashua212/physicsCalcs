@@ -5,29 +5,37 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<title>Physics Calculators</title>
+		<style>
+			html,
+			body {
+				background: #d9d9d9;
+			}
+		</style>
 	</head>
 
 	<body>
-		<div class="omni-calculator" data-calculator="physics/projectile-motion" data-width="300" data-config='{
-			"v0":{"unitDefault":"mps"},
-			"v0x":{"unitDefault":"mps"},
-			"v0y":{"unitDefault":"mps"},
+		<div class="omni-calculator" data-calculator="physics/projectile-motion" data-width="400" data-config='{
+			"v0":{"unitDefault":"ms"},
+			"v0x":{"unitDefault":"ms"},
+			"v0y":{"unitDefault":"ms"},
 			"angle":{"unitDefault":"deg"},
-			"h0":{"unitDefault":"m"},
+			"h0":{"unitDefault":"m","default":"0"},
 			"t_total":{"unitDefault":"sec"},
 			"d":{"unitDefault":"m"},
 			"ymax":{"unitDefault":"m"},
 			"t":{"unitDefault":"sec"},
-			"v":{"unitDefault":"mps"},
-			"vx":{"unitDefault":"mps"},
-			"vy":{"unitDefault":"mps"},
+			"v":{"unitDefault":"ms"},
+			"vx":{"unitDefault":"ms"},
+			"vy":{"unitDefault":"ms"},
 			"x":{"unitDefault":"m"}
-		}' data-currency="USD" data-show-row-controls="false" data-version="3" data-t="1605790910452">
-		<div class="omni-calculator-header">Projectile Motion Calculator</div>
-		<div class="omni-calculator-footer">
-			<a href="https://www.omnicalculator.com/physics/projectile-motion" target="_blank"><img alt="Omni" class="omni-calculator-logo" src="https://cdn.omnicalculator.com/embed/omni-calculator-logo-long.svg" /></a>
+		}' data-currency="USD" data-show-row-controls="true" data-version="3" data-t="1605852852865">
+			<div class="omni-calculator-header">Projectile Motion Calculator</div>
+			<div class="omni-calculator-footer">
+				<a href="https://www.omnicalculator.com/physics/projectile-motion" target="_blank">
+					<img alt="Omni" class="omni-calculator-logo" src="https://cdn.omnicalculator.com/embed/omni-calculator-logo-long.svg" />
+				</a>
+			</div>
 		</div>
-	</div>
-	<script async src="https://cdn.omnicalculator.com/sdk.js"></script>
+		<script async src="https://cdn.omnicalculator.com/sdk.js"></script>
 	</body>
 </html>
